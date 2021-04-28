@@ -1,0 +1,8 @@
+//Count number of products
+SELECT COUNT(*) FROM Products;
+
+//Get least expensive product name and price
+SELECT MIN(ProductsPrice.ProductPrice), Products.ProductName FROM Products join ProductsPrice on Products.ProductID = ProductsPrice.ProductID;
+
+//Count number of products with price less than 5
+SELECT COUNT(*) FROM ProductsPrice WHERE ProductPrice<5;

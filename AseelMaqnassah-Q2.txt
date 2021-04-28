@@ -1,0 +1,13 @@
+function myfunction(array) {
+    array.forEach(function(element) {
+        if(typeof value == 'string' 
+        && (element.length > 5 
+        || element.toLowerCase().startsWith('a') 
+        || element.toLowerCase().startsWith('e') 
+        || element.toLowerCase().startsWith('i') 
+        || element.toLowerCase().startsWith('o') 
+        || element.toLowerCase().startsWith('u'))) {
+            console.log(value);
+        }
+    });
+} 
